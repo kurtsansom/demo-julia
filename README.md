@@ -1,21 +1,18 @@
 # Julia Binder demo
 
+#### Content created by: Daniel Stevensen
+
 This is a demo of Julia functionality for the Binder project. Simply
 go to the URL below and it will launch an interactive Julia environment:
 
-This is another Demo:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/demo-julia/master?filepath=demo.ipynb)
-
-
-This is for the tutorial today:
-
+## This Link loads todays tutorial (2020-04-09) in mybinder:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kurtsansom/demo-julia/master?filepath=julia_demo.ipynb)
 
 
-# Getting it running locally
+## Getting it running locally
 If you don't want to use binder getting ot up and running locally uses the following:
 
-## 1. Install Dependencies
+### 1. Install Dependencies
 * install [julia-1.3+](https://julialang.org/downloads/)
 * clone the repo
 ```
@@ -30,7 +27,7 @@ cd julia_demo
 > julia
 ```
 
-## 2. Add Packages
+### 2. Add Packages
   1. start the julia REPL in the project dir and activate the current dir
   2. from the REPL switch to 'Package Manager Mode' by pressing the ']' key
   ```
@@ -47,12 +44,16 @@ cd julia_demo
   5. escape pkg using crt+c
 
 
-## 3. Start IPython
-# "detached=true" creates a seperate instance of jupyterlab
+### 3. Start IPython
 ```
 julia> using IJulia
 julia> jupyterlab()
 ```
 A browser should open up with the jupyterlab instance.
 
-## 4. Find notebook and open it from the directory in the browser
+### 4. Find notebook and open it from the directory in the browser
+
+
+
+## Another Demo for reference:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/demo-julia/master?filepath=demo.ipynb)
