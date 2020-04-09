@@ -52,9 +52,6 @@ cd julia_demo
 ```
 julia> using IJulia
 julia> jupyterlab()
-# if you want to still have use of the REPL 
-julia> jupyterlab(detached=true) 
-
 ```
 A browser should open up with the jupyterlab instance.
 
