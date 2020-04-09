@@ -6,5 +6,6 @@ go to the URL below and it will launch an interactive Julia environment:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/demo-julia/master?filepath=demo.ipynb)
 
 
-This is for the tutorial todau
+This is for the tutorial today
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/demo-julia/master?filepath=julia_demo.ipynb)
